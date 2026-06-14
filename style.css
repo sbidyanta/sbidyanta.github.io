@@ -205,6 +205,24 @@ h2 {
   letter-spacing: 0.08em;
 }
 
+/* ---------- lists inside content blocks ---------- */
+
+.entry ul,
+.entry ol,
+.lede ul,
+.lede ol {
+  margin: 10px 0 0;
+  padding-left: 22px;
+}
+
+.entry ul li,
+.entry ol li,
+.lede ul li,
+.lede ol li {
+  margin-bottom: 8px;
+  max-width: 36em;
+}
+
 /* ---------- buttons / CTA ---------- */
 
 .cta-row { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 28px; }
